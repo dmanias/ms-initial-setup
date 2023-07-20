@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: redis-app
-          image: redis:7.0.4
+          image: redis:latest
           command:
             - "redis-server"
           args:
