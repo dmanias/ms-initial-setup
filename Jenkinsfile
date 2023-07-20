@@ -11,7 +11,7 @@ node {
             projectId: env.PROJECT_ID,
             clusterName: env.CLUSTER,
             location: env.ZONE,
-            manifestPattern: 'k8s/,
+            manifestPattern: 'k8s/',
             credentialsId: env.PROJECT_ID,
             verifyDeployments: true])
     }
